@@ -31,7 +31,7 @@ from flask import Flask
 from requests import get
 
 app = Flask('__main__')
-SITE_NAME = 'https://google.com/'
+SITE_NAME = 'https://core-u.sigmadevops.ir/'
 
 @app.route('/', defaults={'path': ''})
 @app.route('/<path:path>')
